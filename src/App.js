@@ -7,9 +7,10 @@ import facebook from './assets/facebook.svg'
 import youtube from './assets/youtube.svg'
 import web from './assets/web.svg'
 import location from './assets/location.svg'
+// logo
+import logo from './assets/sunriselogo.png'
 
-// Logo
-import logo from './assets/logo.svg'
+
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
           background: 'url("/bg.webp") 50% 50% / cover no-repeat'
         }}
       >
-         <div class="w-[300px] h-24 flex items-center bg-white justify-center mx-auto  overflow-hidden transform -translate-y-12 ">
-            <img src="https://sunriseinfo.uz/image/catalog/imag/Sunrise-logo_2.png" class="px-2.3" alt="Logo" />
+         <div class="w-[300px] h-24 flex items-center  justify-center mx-auto  overflow-hidden transform -translate-y-12 ">
+            <img src={logo} class="px-2.3" alt="Logo" />
           </div>
         <section class="container mx-auto card-links lg:px-12 rounded-none sm:rounded-2xl border-2 border-blue-900">
           {/* <div class="w-24 h-24 flex items-center bg-white justify-center mx-auto rounded-full overflow-hidden transform -translate-y-12 border-2 border-blue-900">
