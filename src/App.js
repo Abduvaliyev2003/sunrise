@@ -15,7 +15,7 @@ import logo from './assets/sunriselogo.png'
 function App() {
   return (
     <>
-      <div id="linksPage" class="min-h-screen pt-40 bg-gradient-to-br to-white from-white-opacity-760"
+      <div id="linksPage" class="min-h-screen pt-20 pb-20 bg-gradient-to-br to-white from-white-opacity-760"
         style={{
           background: 'url("/bg.webp") 50% 50% / cover no-repeat'
         }}
@@ -51,6 +51,14 @@ function App() {
                 <img src={ telegram } class="unselect" alt="Icon" />
                 <div>
                   <h6 class="text-xl">Telegram</h6>
+                  <p class="text-xs">@sunriseinfouz</p>
+                </div>
+              </a>
+
+              <a target="_blank" rel="noreferrer" href="https://t.me/Trinasolarr" class="w-full shadow-lg bg-white py-3.5 px-4 rounded-lg flex items-center justify-start space-x-2.5">
+                <img src={ telegram } class="unselect" alt="Icon" />
+                <div>
+                  <h6 class="text-xl">Telegram Group</h6>
                   <p class="text-xs">@sunriseinfouz</p>
                 </div>
               </a>
